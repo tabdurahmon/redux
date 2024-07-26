@@ -68,7 +68,7 @@ function Cart() {
 
       <button
         onClick={() => setModal(!modal)}
-        className="bg-orange-600 py-4 rounded-full text-white font-semibold text-base"
+        className="bg-orange-600 py-4 rounded-full text-white font-semibold text-base hover:bg-white hover:text-red-700 "
       >
         Confirm Order
       </button>
